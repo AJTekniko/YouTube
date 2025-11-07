@@ -1,0 +1,28 @@
+Cómo determinar el día de la semana con una fecha en Python:
+
+Para empezar, podemos importar la clase datetime del módulo datetime. Por medio de una función personalizada, se puede rebanar la cadena de caracteres con la fecha y almacenar el año, el mes y el día en diferentes variables en forma de números enteros. Con esos valores, se puede determinar el día de la semana utilizando la función datetime y su método strftime, y almacenar el resultado en una variable. Después solo queda retornar la variable con el día de la semana e imprimir.
+
+from datetime import datetime
+
+def obten_dia(cadena_fecha):
+    v_anual = int(cadena_fecha[0:4])
+    v_mensual = int(cadena_fecha[5:7])
+    dia = int(cadena_fecha[8:10])
+    dia_de_semana = datetime(v_anual, v_mensual, dia).strftime('%A')
+    return dia_de_semana
+
+print(obten_dia("2025-11-06"))
+
+
+Cómo determinar el día de la semana con una fecha en JavaScript:
+
+Para empezar, podemos crear una función personalizada que acepta una cadena de caracteres con la fecha. Creamos una variable para almacenar la cadena en forma de fecha y con los guiones reemplazados con diagonales. Creamos otra variable para almacenar los diferentes días de la semana, ya que el método get,dey que usaremos en la siguiente linea produce un número de cero a seis que representa el día de la semana, pero no el día por nombre. Después de asociar los números con los nombres de los días de la semana, retornamos el día y lo mandamos a la consola.
+
+function obtenDia(cadenaFecha) {
+  const fecha = new Date(cadenaFecha.replace(/-/g, '\/'));
+  const diasDeSemana = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
+  const elDia = diasDeSemana[fecha.getDay()];
+  return elDia;
+}
+
+console.log(obtenDia("2025-11-06"))
