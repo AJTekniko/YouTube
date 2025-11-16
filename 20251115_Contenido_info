@@ -1,0 +1,15 @@
+/*Cómo producir el máximo común divisor de dos números en JavaScript:
+
+Para empezar, podemos crear una función personalizada que toma dos números como parámetros. Creamos una variable en donde será almacenado el máximo común divisor. Creamos un ciclo for para determinar el máximo común divisor y lo asignamos a la variable que fue creada. Retornamos la variable. Después simplemente imprimimos.*/
+
+function obtener_mdc(num1, num2) {
+    let mdc;
+    for(let i = 1; i <= num1 && i <= num2; i++) {
+        if(num1 % i == 0 && num2 % i == 0) {
+            mdc = i;
+        }
+    }
+    return mdc;
+}
+
+console.log(obtener_mdc(4, 6))
