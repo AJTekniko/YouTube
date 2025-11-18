@@ -1,0 +1,45 @@
+"""Cómo crear una calculadora con Python:
+
+Para empezar, podemos crear cuatro funciones personalizadas para sumar, restar, multiplicar y dividir. Para utilizar la función adecuada, podemos crear un diccionario con el símbolo de cada tipo de operación y el nombre de cada función personalizada sin paréntesis. Creamos una función personalizada adicional para la mayor parte del código. Creamos una variable que se usará al final para acumular calculaciones o empezar de cero una vez que termina el proceso, y le asignamos el valor "True". Se obtiene el primer número en forma de número flotante y se almacena en una variable. Creamos un ciclo while que seguirá ejecutándose mientras la variable para acumular calculaciones siga teniendo el valor "True". Imprimimos cada tipo de operación en el diccionario que creamos por medio de un ciclo for y pedimos que el usuario o usuaria elija uno, y almacenamos su elección en una variable. Se obtiene el segundo número en forma de número flotante y se almacena en otra variable. Llamamos a la función personalizada por medio del diccionario y usamos los dos números proporcionados como sus parámetros, y asignamos el resultado a una nueva variable. Creamos una última variable para almacenar la decisión del usuario o usuaria en cuanto a si va a utilizar el resultado para la próxima calculación o empezar de cero, lo cual es determinado con sentencias condicionales."""
+
+def sumar(n1, n2):
+    return n1 + n2
+
+def restar(n1, n2):
+    return n1 - n2
+
+def multiplicar(n1, n2):
+    return n1 * n2
+
+def dividir(n1, n2):
+    return n1 / n2
+
+operaciones = {
+    "+": sumar,
+    "-": restar,
+    "*": multiplicar,
+    "/": dividir,
+}
+
+def calculadora():
+    acumular = True
+    num1 = float(input("Por favor escriba el primer número: "))
+
+    while acumular:
+        for operacion in operaciones:
+            print(operacion)
+        simbolo = input("Por favor elija una operación: ")
+        num2 = float(input("Por favor escriba el segundo número: "))
+        respuesta = operaciones[simbolo](num1, num2)
+        print(f"{num1} {simbolo} {num2} = {respuesta}")
+
+        decision = input(f"Por favor escriba 's' si quiere continuar haciendo calculaciones con {respuesta} o escriba 'n' para empezar una nueva calculación: ")
+
+        if decision == "s":
+            num1 = respuesta
+        else:
+            acumular = False
+            print("\n" * 20)
+            calculadora()
+
+calculadora()
