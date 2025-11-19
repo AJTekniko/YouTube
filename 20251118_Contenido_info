@@ -1,0 +1,27 @@
+"""Cómo repetir los caracteres de una frase en Python:
+
+Para empezar, podemos importar el módulo math y crear una función personalizada que acepta la frase y el límite de caracteres como parámetros. Creamos una variable para almacenar el cociente de la longitud deseada dividida por la longitud de la frase redondeado hacia arriba. Esa ecuación nos da la cantidad de repeticiones que son necesarias. Creamos otra variable para almacenar la frase multiplicada por la cantidad de repeticiones almacenadas en la variable anterior. Retornamos la variable con la frase repetida rebanada por la longitud deseada. Después simplemente imprimimos."""
+
+import math
+
+def repetidora(chars, longitud):
+    repeticiones = math.ceil(longitud / len(chars))
+
+    cadena_repetida = chars * repeticiones
+
+    return cadena_repetida[:longitud]
+
+print (repetidora("AJTekniko ", 100))
+
+
+/*Cómo repetir los caracteres de una frase en JavaScript:
+
+Para empezar, podemos crear una función personalizada que acepta la frase y el límite de caracteres como parámetros. Creamos una variable para almacenar el cociente de la longitud deseada dividida por la longitud de la frase redondeado hacia arriba. Esa ecuación nos da la cantidad de repeticiones que son necesarias. Creamos otra variable para almacenar la frase multiplicada por la cantidad de repeticiones almacenadas en la variable anterior. Retornamos la variable con la frase repetida rebanada por la longitud deseada. Después simplemente lo mandamos a la consola.*/
+
+function repetidora(chars, longitud) {
+  const repeticiones = Math.ceil(longitud / chars.length);
+  const cadenaRepetida = chars.repeat(repeticiones);
+  return cadenaRepetida.slice(0, longitud);
+}
+
+console.log(repetidora("AJTekniko ", 100))
