@@ -1,0 +1,15 @@
+"""Cómo barajar en Python:
+
+Para empezar, podemos importar el módulo random. Creamos una lista con cada palo y creamos otra lista con cada valor. Asignamos cada lista a una variable. Creamos una variable para combinar los palos y los valores. Utilizamos la función shuffle para barajar. Usamos un ciclo for para elegir cinco cartas y después simplemente imprimimos."""
+
+import random
+
+palos = ['Corazones', 'Diamantes', 'Treboles', 'Picas']
+valores = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Paje', 'Dama', 'Rey', 'As']
+baraja = [(valor, palo) for palo in palos for valor in valores]
+
+random.shuffle(baraja)
+
+print("Tus cartas:")
+for i in range(5):
+    print(f"{baraja[i][0]} de {baraja[i][1]}")
