@@ -1,0 +1,11 @@
+<!--
+El elemento HTML:
+
+Este elemento define el inicio del documento HTML e indica que el resto del documento se ubicará entre su etiqueta de apertura y su etiqueta de cierre. El atributo lang indica el lenguaje que usará la página de Internet. Para inglés se usa "en" y para español se usa "es". Es muy importante para la gente con discapacidad visual cuando utilizan lectores de pantalla para que las palabras sean pronunciadas correctamente.
+-->
+
+<!DOCTYPE html>
+<html>
+
+
+</html>
