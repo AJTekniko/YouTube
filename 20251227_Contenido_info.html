@@ -1,0 +1,19 @@
+<!--
+El elemento form en HTML:
+
+El elemento form es utilizado para obtener información del usuario o usuaria, como su nombre o correo electrónico. El atributo action indica a donde serán mandados los datos recolectados. Para recolectar información específica, se utiliza el elemento input. El elemento input no requiere una etiqueta de cierre. El atributo type indica el tipo de dato que se espera del usuario o usuaria. El elemento label se usa para añadirle una etiqueta a la entrada. Se puede crear una asociación implícita entre input y label al anidar input adentro de label. Sin embargo, si queremos una asociación explícita, como hemos hecho en este ejemplo, se utiliza el atributo for. Al crear este tipo de asociación, los valores del atributo for y del atributo id necesitan ser iguales. Para una indicación adicional de lo que se espera como entrada, se puede usar el atributo placeholder con un ejemplo del formato y el tipo de dato que se requiere.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="email"> Correo Electrónico: </label>
+      <input type="email" id="email" placeholder="ejemplo@email.com" />
+    </form>
+  </body>
+</html>
