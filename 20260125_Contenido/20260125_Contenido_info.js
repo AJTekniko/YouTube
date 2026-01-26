@@ -1,4 +1,6 @@
 /*
+Video: https://www.youtube.com/shorts/uKVPlwBQKuw
+
 Cómo saber si un número es par o impar con JavaScript:
 
 Para saber si un número es par o impar, utilizamos el operador módulo. Considera el siguiente ejemplo, obtenemos el número que es proporcionado y lo dividimos por módulo 2 en una sentencia condicional. Después simplemente mandamos el resultado a la consola.
