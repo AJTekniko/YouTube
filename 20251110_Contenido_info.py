@@ -1,0 +1,13 @@
+"""
+Cómo extraer la extensión del nombre de un archivo con Python:
+
+Para empezar, podemos crear una función personalizada que acepta una cadena de caracteres como parámetro. Por medio de sentencias condicionales, determinamos si hay un punto en el nombre del archivo y si tiene caracteres después de ese punto. Si sí, la función retorna la extensión, pero si no, entonces retorna un mensaje apropiado. Después simplemente imprimimos.
+"""
+
+def get_extension(filename):
+    if "." in filename and "." != filename[-1]:
+        return filename.split(".")[-1]
+    else:
+        return "none"
+
+print(get_extension("document.txt"))
