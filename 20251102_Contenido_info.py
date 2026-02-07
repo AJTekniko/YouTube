@@ -1,6 +1,10 @@
-"""Cómo producir el máximo común divisor de dos números en Python:
+"""
+Video: youtube.com/shorts/1SJLbJ4REIQ
 
-Para empezar, podemos crear una función personalizada que toma dos números como parámetros. En esa función se determina el número que es más pequeño entre los dos usando una sentencia condicional, se crea una variable que se usa para almacenar el máximo común divisor, el cual se determina con un ciclo for, y termina por retornar el máximo común divisor. Los números que se usarán en la función personalizada se obtiene por medio de la función input en la forma de enteros y son almacenados en dos variables. Después simplemente imprimimos."""
+Cómo producir el máximo común divisor de dos números en Python:
+
+Para empezar, podemos crear una función personalizada que toma dos números como parámetros. En esa función se determina el número que es más pequeño entre los dos usando una sentencia condicional, se crea una variable que se usa para almacenar el máximo común divisor, el cual se determina con un ciclo for, y termina por retornar el máximo común divisor. Los números que se usarán en la función personalizada se obtiene por medio de la función input en la forma de enteros y son almacenados en dos variables. Después simplemente imprimimos.
+"""
 
 def calcula_mcd(x, y):
     pequeno = 0
