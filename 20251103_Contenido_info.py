@@ -1,7 +1,10 @@
-"""Cómo producir el máximo común divisor de dos números en Python con el algoritmo euclidiano:
+"""
+Video: youtube.com/watch?v=P_lYru-om8o
 
-Para empezar, podemos crear una función personalizada que toma dos números como parámetros. En esa función, se sigue la lógica del algoritmo euclidiano para encontrar el máximo común divisor con un ciclo while y lo retorna. Después simplemente imprimimos."""
+Cómo producir el máximo común divisor de dos números en Python con el algoritmo euclidiano:
 
+Para empezar, podemos crear una función personalizada que toma dos números como parámetros. En esa función, se sigue la lógica del algoritmo euclidiano para encontrar el máximo común divisor con un ciclo while y lo retorna. Después simplemente imprimimos.
+"""
 
 def calcula_mcd(x, y):
     while(y):
