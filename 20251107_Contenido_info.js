@@ -1,4 +1,6 @@
 /*
+Video: youtube.com/watch?v=IGRD1-yijIY
+
 Cómo calcular la cantidad de combinaciones en JavaScript:
 
 Si queremos calcular la cantidad de combinaciones únicas, como con las cartas, podemos lograrlo por medio de dos funciones personalizadas: una para calcular el factorial de un número y otra para producir la cantidad de combinaciones usando la fórmula de combinaciones con factoriales. Después simplemente lo mandamos a la consola.
