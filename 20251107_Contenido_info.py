@@ -1,4 +1,6 @@
 """
+Video: youtube.com/watch?v=--6hVe2KOMY
+
 Cómo calcular la cantidad de combinaciones en Python:
 
 Si queremos calcular la cantidad de combinaciones únicas, como con las cartas, podemos lograrlo por medio de dos funciones personalizadas: una para calcular el factorial de un número y otra para producir la cantidad de combinaciones usando la fórmula de combinaciones con factoriales. Después simplemente imprimimos. Sin embargo, Python tiene la ventaja de que se puede producir simplemente con importar el módulo math y utilizar el método comb.
