@@ -1,4 +1,6 @@
 /*
+Video: youtube.com/watch?v=ifQTKbAzW2I
+
 Cómo evaluar la longitud de cadenas de caracteres en JavaScript:
 
 Para evaluar la longitud de cadenas de caracteres, se puede utilizar la propiedad length. Considera el siguiente ejemplo. Creamos una función personalizada que acepta una cadena de caracteres y por medio de sentencias condicionales, evaluamos la condición que le corresponde y retornamos el mensaje apropiado. Después simplemente lo mandamos a la consola.
