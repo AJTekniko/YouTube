@@ -1,0 +1,20 @@
+/*
+Video: youtube.com/shorts/z8Uqb-hRX24
+
+La propiedad width en CSS:
+
+Esta propiedad controla el ancho de los elementos indicados. Se pueden utilizar píxeles, porcentajes, unidades de vista, y más como sus valores. La propiedad min-width controla el ancho mínimo y la propiedad max-width controla el ancho máximo.
+*/
+
+<head>
+  <style>
+    .figura {
+      width: 200px;
+      height: 200px;
+      background-color: red
+    }
+  </style>
+</head>
+<body>
+  <div class="figura"></div>
+</body>
