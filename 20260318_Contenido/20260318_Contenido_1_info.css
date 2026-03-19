@@ -1,0 +1,11 @@
+/*
+Video: youtube.com/shorts/liMfAoD_opo
+
+La estructura básica de una regla CSS:
+
+Una regla CSS consiste del selector y el bloque de declaraciones. El selector identifica y apunta a elementos de HTML. El bloque de declaraciones le aplica ciertos estilos al selector indicado. Considera el ejemplo que ve en pantalla, es la sintaxis general de una regla CSS. El elemento body aquí es el selector. Background-color y red son la propiedad y su valor, los cuales se encuentran en el bloque de declaraciones.
+*/
+
+body {
+    background-color: red;
+}
