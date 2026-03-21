@@ -11,7 +11,6 @@ cuenta = len(str(numero))
 print(cuenta)
 
 
-numero = 12345
 cuenta = 0
 while numero != 0:
     numero //= 10
