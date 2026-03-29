@@ -1,4 +1,6 @@
 """
+Video: youtube.com/watch?v=NGRmmeaKXGg
+
 Cómo remover acentos en Python:
 
 Para empezar, importamos el módulo unicodedate. Creamos una función personalizada que acepta una cadena de caracteres que contiene acentos como parámetro. Usamos el método normalize con "NFKD" y la cadena con acentos como sus dos argumentos. Asignamos el resultado a una variable. Filtramos los caracteres que combinan marcas diacríticas y retornamos el resultado. Después simplemente imprimimos.
