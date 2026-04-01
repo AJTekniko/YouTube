@@ -1,0 +1,17 @@
+/*
+Video: youtube.com/shorts/r3EbPG8j42A
+
+Cómo activar modo claro y modo oscuro con solamente dos líneas de código en CSS:
+
+Con las dos líneas de código que ve en pantalla, el modo adecuado es activado basado en las configuraciones del sistema operativo.
+
+Basado en el video corte de @aniakubow
+*/
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  background-color: light-dark(#fff, #444);
+}
