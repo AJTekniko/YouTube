@@ -1,0 +1,7 @@
+Video: youtube.com/shorts/-OrfzSeZL0k
+
+Cómo abrir cmd:
+
+Podemos apretar la tecla Windows (⊞ Win) en el teclado, escribir cmd, y seleccionar el símbolo del sistema, o Command Prompt. También lo podemos abrir desde el explorador de archivos para que se abra desde el directorio en el que queremos trabajar. Para hacer eso, solamente se necesita escribir cmd en la barra de direcciones y apretar enter.
+
+Este video fue inspirado por un comentario de @MoisesBonifacioPerez
