@@ -1,4 +1,6 @@
 """
+Video: youtube.com/watch?v=pE9ToXFALWY
+
 Cómo producir la cantidad de días que faltan para el fin de semana en Python:
 
 Para empezar, podemos importar la clase date del módulo datetime. Creamos una función personalizada que acepta la fecha como cadena de caracteres. Usamos el método fromisoformat y weekday, que producen un número que corresponde al día de la semana. Lo almacenamos a una variable. Al cinco que representa sábado le restamos el resultado de esos dos métodos y lo almacenamos en otra variable. Usamos sentencias condicionales para retornar el mensaje apropiado. Después simplemente imprimimos.
