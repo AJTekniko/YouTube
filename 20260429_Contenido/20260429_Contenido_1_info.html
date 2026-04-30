@@ -1,0 +1,33 @@
+<!--
+Video: youtube.com/shorts/OodUh6RdBR0
+
+La especificidad en CSS:
+
+El valor de especificidad para estilos en línea es el más alto. Luego siguen los selectores de ID, los selectores de clase, los selectores de tipo, y el selector universal en ese orden sin importar si son aplicados por medio de CSS interno o CSS externo. Sin embargo, la palabra clave !important da máxima prioridad, pero debería de utilizarse con cuidado porque puede dificultar el código. Considere el ejemplo que ve en pantalla.
+-->
+
+<style>
+  * {
+    color: red;
+  }
+  p {
+    color: blue;
+  }
+  .clase {
+    color: orange;
+  }
+  #id {
+    color: green;
+  }
+  .palabra-clave {
+    color: purple !important;
+  }
+</style>
+<body>
+  <h1>ejemplo del selector universal</h1>
+  <p>ejemplo del selector de tipo</p>
+  <p class="clase">ejemplo del selector de clase</p>
+  <p class="clase" id="id">ejemplo del selector de id</p>
+  <p style="color: black;">ejemplo del estilo en línea</p>
+  <p class="palabra-clave" style="color: black;">ejemplo de !important</p>
+</body>
