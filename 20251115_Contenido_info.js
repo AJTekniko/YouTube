@@ -3,7 +3,8 @@ Video: youtube.com/watch?v=z6E1rpWMr1A
 
 Cómo producir el máximo común divisor de dos números en JavaScript:
 
-Para empezar, podemos crear una función personalizada que toma dos números como parámetros. Creamos una variable en donde será almacenado el máximo común divisor. Creamos un ciclo for para determinar el máximo común divisor y lo asignamos a la variable que fue creada. Retornamos la variable. Después simplemente imprimimos.*/
+Para empezar, podemos crear una función personalizada que toma dos números como parámetros. Creamos una variable en donde será almacenado el máximo común divisor. Creamos un ciclo for para determinar el máximo común divisor y lo asignamos a la variable que fue creada. Retornamos la variable. Después simplemente imprimimos.
+*/
 
 function obtener_mdc(num1, num2) {
     let mdc;
