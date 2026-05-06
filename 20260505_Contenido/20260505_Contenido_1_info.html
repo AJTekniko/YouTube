@@ -1,0 +1,68 @@
+<!--
+Video: youtube.com/shorts/--z8EjzG5k4
+
+Las unidades absolutas en CSS:
+
+Estas unidades son utilizadas para controlar las dimensiones de los elementos con precisión; no son relativas al tamaño de la pantalla o del elemento padre. La más común de ellas es el píxel, pero las unidades absolutas también incluyen pulgadas, centímetros, milímetros, cuarto de milímetros, picas, y puntos. Considere los ejemplos que ve en pantalla.
+-->
+
+<style>
+  .unidades {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .unidad {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 4px;
+  }
+
+  .px {
+    width: 40px;
+    height: 40px;
+  }
+
+  .pulgada {
+    width: 0.5in;
+    height: 0.5in;
+  }
+
+  .cm {
+    width: 1cm;
+    height: 1cm;
+  }
+
+  .mm {
+    width: 10mm;
+    height: 10mm;
+  }
+
+  .cuarto {
+    width: 40q;
+    height: 40q;
+  }
+
+  .pc {
+    width: 6pc;
+    height: 6pc;
+  }
+
+  .pt {
+    width: 36pt;
+    height: 36pt;
+  }
+</style>
+<body>
+  <div class="unidades">
+    <div class="unidad px">px</div>
+    <div class="unidad pulgada">pulgada</div>
+    <div class="unidad cm">cm</div>
+    <div class="unidad mm">mm</div>
+    <div class="unidad cuarto">cuarto</div>
+    <div class="unidad pc">pc</div>
+    <div class="unidad pt">pt</div>
+</body>
