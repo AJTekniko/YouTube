@@ -1,0 +1,58 @@
+<!--
+Video: youtube.com/shorts/eL8K06TQfJA
+
+Las unidades relativas en CSS:
+
+Estas unidades son utilizadas para controlar los tamaños, las dimensiones y otras propiedades de los elementos respecto a otros elementos, la ventana de visualización o viewport, etc. Las unidades relativas incluyen porcentajes (que son relativos al elemento padre), la unidad em (que es relativa al tamaño de fuente del elemento; con la propiedad font-size, es relativa al tamaño de fuente del elemento padre), la unidad rem (que es relativa al tamaño del elemento raíz, que es el elemento html), la unidad vh (que significa altura de la ventana de visualización), y la unidad vw (que significa ancho de la ventana de visualización). Considere los ejemplos que ve en pantalla.
+-->
+
+<style>
+  html {
+    font-size: 16px;
+  }
+
+  .elemento-padre {
+    width: 200px;
+    font-size: 20px;
+    border: 2px dashed #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cuadro {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 6px;
+  }
+
+  .porcentaje {
+    width: 50%;
+  }
+
+  .em {
+    font-size: 2em;
+  }
+
+  .rem {
+    font-size: 2rem;
+  }
+
+  .vh {
+    height: 10vh;
+  }
+
+  .vw {
+    width: 10vw;
+  }
+</style>
+<body>
+  <div class="elemento-padre">
+    <div class="cuadro porcentaje">50%</div>
+    <div class="cuadro em">2em</div>
+    <div class="cuadro rem">2rem</div>
+    <div class="cuadro vh">10vh</div>
+    <div class="cuadro vw">10vw</div>
+</body>
