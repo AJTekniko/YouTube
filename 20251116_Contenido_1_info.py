@@ -1,0 +1,13 @@
+"""
+Video: youtube.com/watch?v=EJa6VxQsofQ
+
+Cómo producir los factores de un número en Python:
+
+Para empezar, podemos obtener un número proporcionado por medio de la función input y almacenarlo como un número entero en una variable. Usamos un ciclo for para obtener los factores de ese número utilizando el operador módulo. Después simplemente los imprimimos.
+"""
+
+numero = int(input("Por favor escriba un número para producir sus factores: "))
+
+for i in range(1, numero + 1):
+    if(numero % i == 0):
+        print(i)
