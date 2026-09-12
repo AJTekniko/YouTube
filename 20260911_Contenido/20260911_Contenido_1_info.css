@@ -1,0 +1,20 @@
+/*
+Video: youtube.com/shorts/Kx7fgkTmZ1o
+
+La propiedad box-shadow en CSS:
+
+Esta propiedad le aplica sombra alrededor de un elemento. Se pueden indicar valores de desplazamiento, de desenfoque, de expansión, y de color de sombra. La palabra clave inset puede ser utilizada para colocar la sombra adentro del elemento. Por cierto, se pueden aplicar varias sombras separadas por comas. Considere el ejemplo que ve en pantalla.
+
+<style> */
+  p {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #F00;
+    text-align: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+  } /*
+</style>
+<body>
+  <p>Ejemplo</p>
+</body> */
