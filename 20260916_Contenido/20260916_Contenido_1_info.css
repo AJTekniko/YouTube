@@ -1,0 +1,21 @@
+/*
+Video: youtube.com/shorts/OCUwWmIxPdI
+
+La propiedad overflow en CSS:
+
+Esta propiedad, que significa desbordamiento, controla como se maneja el contenido que excede el tamaño de su elemento contenedor. Se pueden utilizar overflow-x y overflow-y para determinar el desbordamiento horizontal y vertical, respectivamente. Se le pueden aplicar los valores hidden, que oculta el desbordamiento, scroll, que permite que el elemento sea desplazable, y auto, que deja que el navegador lo maneje. Considere el ejemplo que ve en pantalla.
+*/
+
+/*<style>*/
+  div {
+    height: 95px;
+    overflow-y: hidden;
+  }
+/*</style>
+<body>
+  <div>
+    <p>Ejemplo de la propiedad hidden</p>
+    <p>Ejemplo de la propiedad hidden</p>
+    <p>Ejemplo de la propiedad hidden</p>
+  </div>
+</body> */
