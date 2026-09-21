@@ -1,0 +1,22 @@
+/*
+Video: youtube.com/shorts/cD_pJsfX4y4
+
+La función translate en CSS:
+
+Esta función, que en este caso significa cambiar, pertenece a la propiedad transform, que significa transformar, y es utilizada para cambiar a un elemento de ubicación. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  body {
+    border: 2px solid black;
+  }
+  .cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: translate(25px, 50px);
+  }
+/*</style>
+<body>
+  <div class="cuadro"></div>
+</body>*/
