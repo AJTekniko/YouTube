@@ -1,0 +1,19 @@
+/*
+Video: youtube.com/shorts/x4ArzzHrf20
+
+La función rotate en CSS:
+
+Esta función, que significa rotar, pertenece a la propiedad transform, que significa transformar, y es utilizada para rotar un elemento. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  .cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(45deg);
+  }
+/*</style>
+<body>
+  <div class="cuadro"></div>
+</body>*/
