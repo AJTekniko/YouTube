@@ -1,0 +1,19 @@
+/*
+Video: youtube.com/shorts/-zFpV7NZvm4
+
+La función scale en CSS:
+
+Esta función, que significa escalar, pertenece a la propiedad transform, que significa transformar, y es utilizada para modificar el tamaño de un elemento. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  .cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scale(1.5, 2);
+  }/*
+</style>
+<body>
+  <div class="cuadro"></div>
+</body>*/
