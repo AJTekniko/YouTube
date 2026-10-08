@@ -1,0 +1,31 @@
+/*
+Video: youtube.com/shorts/3JZg-R1FQnI
+
+La propiedad box-sizing en CSS:
+
+Esta propiedad es utilizada para controlar la calculación del ancho y la altura de los elementos. Tiene a content-box como su valor por defecto. Con este valor, el ancho y la altura establecidos determinan las dimensiones del área de contenido sin tomar en cuenta al padding, border o margin. Sin embargo, el valor puede ser cambiado a border-box que incluye al área de contenido, padding y border para determinar las dimensiones del contenido, pero no al margin. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  .cuadro {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    border: 4px solid black;
+    margin: 10px;
+  }
+
+  #div-rojo {
+    box-sizing: content-box;
+    background-color: red;
+  }
+
+  #div-verde {
+    box-sizing: border-box;
+    background-color: green;
+  }/*
+</style>
+<body>
+  <div class="cuadro" id="div-rojo"></div>
+  <div class="cuadro" id="div-verde"></div>
+</body>*/
