@@ -1,0 +1,17 @@
+/*
+Video: youtube.com/shorts/i-_3qnkP47s
+
+La función blur en CSS:
+
+Esta función es utilizada para aplicarle un desenfoque Gaussiano a un elemento. El radio del desenfoque se define en píxeles. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  img {
+    filter: blur(2px);
+    width: 200px;
+    height: 200px;
+  }
+/*
+</style>
+<img src="https://cdn.pixabay.com/photo/2023/04/12/15/20/cat-7920615_1280.png">*/
