@@ -1,0 +1,17 @@
+/*
+Video: youtube.com/shorts/mgFqbNNWJdQ
+
+La función brightness en CSS:
+
+Esta función es utilizada para ajustar el brillo de un elemento. El elemento se pone completamente negro con un valor de 0%. Sin embargo, cualquier valor mayor que 100% aumenta el brillo del elemento. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  img {
+    filter: brightness(150%);
+    width: 150px;
+    height: 150px;
+  }
+/*
+</style>
+<img src="https://cdn.pixabay.com/photo/2023/04/12/15/20/cat-7920615_1280.png">*/
