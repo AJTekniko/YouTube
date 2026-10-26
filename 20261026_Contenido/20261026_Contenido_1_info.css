@@ -1,0 +1,17 @@
+/*
+Video: youtube.com/shorts/tkGHLgp164o
+
+La función grayscale en CSS:
+
+Esta función es utilizada para convertir un elemento a escala de grises. El elemento se queda sin cambios con un valor de 0%. Sin embargo, un valor de 100% hace que el elemento esté totalmente en escala de grises. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  img {
+    filter: grayscale(100%);
+    width: 150px;
+    height: 150px;
+  }
+/*
+</style>
+<img src="https://cdn.pixabay.com/photo/2023/04/12/15/20/cat-7920615_1280.png">*/
