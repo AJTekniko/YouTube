@@ -1,0 +1,17 @@
+/*
+Video: youtube.com/shorts/verj843LY0U
+
+La función sepia en CSS:
+
+Esta función es utilizada para aplicarle un tono sepia a un elemento. El elemento se queda sin cambios con un valor de 0%. Sin embargo, un valor de 100% completamente le aplica un tono sepia al elemento. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  img {
+    filter: sepia(100%);
+    width: 150px;
+    height: 150px;
+  }
+/*
+</style>
+<img src="https://cdn.pixabay.com/photo/2023/04/12/15/20/cat-7920615_1280.png">*/
