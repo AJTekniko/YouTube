@@ -1,0 +1,17 @@
+/*
+Video: youtube.com/shorts/P8-cN2kd8Dw
+
+La función hue-rotate en CSS:
+
+Esta función es utilizada para aplicarle una rotación de tonalidad a un elemento. Representa una rotación en el círculo de color, que se define en grados. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  img {
+    filter: hue-rotate(90deg);
+    width: 150px;
+    height: 150px;
+  }
+/*
+</style>
+<img src="https://cdn.pixabay.com/photo/2023/04/12/15/20/cat-7920615_1280.png">*/
