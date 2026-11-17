@@ -1,0 +1,37 @@
+/*
+Video: youtube.com/shorts/d40SuTMLg9Y
+
+La propiedad flex-direction en CSS:
+
+Esta propiedad es utilizada para establecer la dirección del eje principal del modelo flex. Su valor predeterminado es row, el cual coloca a todos los elementos flexibles en la misma fila, siguiendo la dirección del idioma del navegador. El valor row-reverse invierte los elementos en la fila, column alinea los elementos verticalmente en lugar de horizontalmente, y column-reverse invierte los elementos verticalmente. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  main {
+    display: flex;
+    flex-direction: row-reverse
+  }
+
+  div {
+    width: 80px;
+    height: 50px;
+  }
+
+  #primero {
+    background-color: green;
+  }
+
+  #segundo {
+    background-color: yellow;
+  }
+
+  #tercero {
+    background-color: red;
+  }
+/*
+</style>
+<main>
+  <div id="primero"></div>
+  <div id="segundo"></div>
+  <div id="tercero"></div>
+</main>*/
