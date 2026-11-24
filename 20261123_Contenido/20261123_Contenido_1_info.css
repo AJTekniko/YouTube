@@ -1,0 +1,39 @@
+/*
+Video: youtube.com/shorts/BwU2j-BR7uc
+
+La propiedad flex-wrap en CSS:
+
+Esta propiedad es utilizada para establecer cómo se envuelven los elementos flexibles en un contenedor flex. Su valor predeterminado es nowrap, que indica que si el ancho de los elementos flexibles excede el del contenedor, no se envuelven en una nueva línea. El valor wrap envuelve los elementos cuando exceden su contenedor. El valor wrap-reverse envuelve los elementos en orden inverso. Y la propiedad flex-flow es abreviación de flex-direction y flex-wrap. Considere el ejemplo que ve en pantalla.
+
+
+<style>*/
+  main {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+  }
+
+  div {
+    width: 80px;
+    height: 50px;
+  }
+
+  #primero {
+    background-color: green;
+  }
+
+  #segundo {
+    background-color: yellow;
+  }
+
+  #tercero {
+    background-color: red;
+  }
+/*
+</style>
+<main>
+  <div id="primero"></div>
+  <div id="segundo"></div>
+  <div id="tercero"></div>
+</main>*/
